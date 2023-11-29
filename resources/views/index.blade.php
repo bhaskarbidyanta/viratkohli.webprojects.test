@@ -1,17 +1,19 @@
 @extends('layouts.default')
 
 @section('page-content')
-    <section class="relative min-h-screen flex items-center">
-        <div class="container mx-auto text-center">
-            <h2 class="class text-4xl sm:text-8xl">Get to <span class="text-pink-500">know</span></h2>
-            <h3 class="text-2xl sm:text-4xl italic">Virat Kohli</h3>
-        </div>
-
+    <section class="relative min-h-screen flex items-right">
         <div class="absolute bottom-8 left-0 right-0 p-20">
-            <p class="text-center">Scroll to learn more</p>
+        <h1 class="text-white text-8xl mb-6 uppercase font-black">
+            VIRAT <span class="text-purple-500">KOHLI</span></h1>
+        <h3 class="text-white text-4xl font-light">Welcome to my website,
+            it is very cool!</h3><br><br>
         </div>
+        <div class="absolute bottom--10 left-75 right-10 max-w-md mx-auto flex-shrink justify-right hover:bg-violet-500 transition ">
 
+            <img src="images/vk1.png" class="main-img">
+        </div>
     </section>
+
 
     <section class="py-20">
         <div class="max-w-screen-md mx-auto">

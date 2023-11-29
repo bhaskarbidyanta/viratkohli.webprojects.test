@@ -7,9 +7,9 @@
     <title>Virat Kohli</title>
     @vite('resources/css/app.css')
 </head>
-<body class="bg-gray-700 text-white">
+<body class="bg-slate-800 text-white">
     @include('layouts.header')
-
+<br><br>
     <main>
         @yield('page-content')
     </main>

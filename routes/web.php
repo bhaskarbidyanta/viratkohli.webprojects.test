@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ImageController;
 
 /*
 |--------------------------------------------------------------------------
@@ -32,3 +33,7 @@ Route::get('/career', function () {
 Route::get('/books', function () {
     return view('books');
 })->name('books');
+
+Route::get('/contact', function () {
+    return view('contact');
+})->name('contact');
